@@ -12,10 +12,7 @@ Task Scheduling Module for running a method or code base in scenarios that would
 write your code inside the Execute method
  you can call the static class like this to run SampleTask's Execute method  after 10 min 
 
-
-2.   
-
-ScheduleUtilityFactory.AddScheduleTaskToBatch(new SampleTask (DateTime.Now.AddMinutes(1), " RUN AFTER 10 MIN "));
+2.  ScheduleUtilityFactory.AddScheduleTaskToBatch(new SampleTask (DateTime.Now.AddMinutes(1), " RUN AFTER 10 MIN "));
 
 and you are done!
  
